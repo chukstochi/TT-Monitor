@@ -1,0 +1,172 @@
+:root {
+     --bg: #0f1115;
+     --card: #181b22;
+     --line: #262a33;
+     --txt: #e8eaed;
+     --mut: #8b919c;
+     --o: #f97316;
+     --g: #22c55e;
+     --r: #ef4444
+}
+
+* {
+     box-sizing: border-box
+}
+
+body {
+     margin: 0;
+     background: var(--bg);
+     color: var(--txt);
+     font-family: Inter, system-ui, sans-serif
+}
+
+.top {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 16px 24px;
+     border-bottom: 1px solid var(--line)
+}
+
+.logo {
+     font-weight: 800;
+     font-size: 20px
+}
+
+.logo b {
+     color: var(--o)
+}
+
+.wrap {
+     max-width: 1100px;
+     margin: 0 auto;
+     padding: 24px 16px
+}
+
+.banner {
+     padding: 14px 18px;
+     border-radius: 10px;
+     margin-bottom: 18px;
+     font-weight: 600
+}
+
+.banner.ok {
+     background: #14301f;
+     color: var(--g)
+}
+
+.banner.bad {
+     background: #3a1717;
+     color: var(--r)
+}
+
+.grid {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+     gap: 14px
+}
+
+.card {
+     background: var(--card);
+     border: 1px solid var(--line);
+     border-radius: 12px;
+     padding: 16px;
+     cursor: pointer
+}
+
+.card.sel {
+     border-color: var(--o)
+}
+
+.row {
+     display: flex;
+     justify-content: space-between;
+     align-items: center
+}
+
+.dot {
+     width: 12px;
+     height: 12px;
+     border-radius: 50%;
+     display: inline-block;
+     margin-right: 8px;
+     background: var(--mut)
+}
+
+.dot.up {
+     background: var(--g);
+     box-shadow: 0 0 8px var(--g)
+}
+
+.dot.down {
+     background: var(--r);
+     box-shadow: 0 0 8px var(--r)
+}
+
+.big {
+     font-size: 28px;
+     font-weight: 700;
+     margin: 10px 0 2px
+}
+
+.mut {
+     color: var(--mut);
+     font-size: 13px
+}
+
+button {
+     background: var(--o);
+     color: #fff;
+     border: 0;
+     border-radius: 8px;
+     padding: 9px 16px;
+     font-weight: 600;
+     cursor: pointer
+}
+
+button.ghost {
+     background: transparent;
+     border: 1px solid var(--line);
+     color: var(--txt)
+}
+
+button:disabled {
+     opacity: .5
+}
+
+input,
+select {
+     padding: 10px;
+     border-radius: 8px;
+     border: 1px solid var(--line);
+     background: var(--card);
+     color: var(--txt);
+     font: inherit
+}
+
+.panel {
+     background: var(--card);
+     border: 1px solid var(--line);
+     border-radius: 12px;
+     padding: 16px;
+     margin-top: 18px
+}
+
+.chart {
+     width: 100%;
+     height: 170px;
+     background: #12141a;
+     border-radius: 8px
+}
+
+.login {
+     max-width: 340px;
+     margin: 18vh auto;
+     display: grid;
+     gap: 12px;
+     padding: 0 16px
+}
+
+.err {
+     color: var(--r)
+}

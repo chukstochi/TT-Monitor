@@ -1,0 +1,34 @@
+[
+  {
+    "key": "skynnews",
+    "name": "Sky_N_News",
+    "url": "https://grateful-wholeness-production-6842.up.railway.app/",
+    "path": "",
+    "downloads": {},
+    "public": false
+  },
+  {
+    "key": "ttmemory",
+    "name": "TT Memory",
+    "url": "https://REPLACE-ttmemory.example.com",
+    "path": "",
+    "downloads": {},
+    "public": false
+  },
+  {
+    "key": "ttresearch",
+    "name": "TT Research",
+    "url": "https://calm-manifestation-production-1216.up.railway.app/",
+    "path": "",
+    "downloads": {},
+    "public": false
+  },
+  {
+    "key": "orepay",
+    "name": "OrePay",
+    "url": "https://REPLACE-orepay.example.com",
+    "path": "/health",
+    "downloads": {},
+    "public": false
+  }
+]
