@@ -1,0 +1,5 @@
+/api/*  https://tt-monitor-production.up.railway.app/api/:splat  200
+/t.js  https://tt-monitor-production.up.railway.app/t.js  200
+/d/*  https://tt-monitor-production.up.railway.app/d/:splat  200
+/status  https://tt-monitor-production.up.railway.app/status  200
+/*  /index.html  200
